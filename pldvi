@@ -137,13 +137,33 @@ local MainWindow = Rayfield:CreateWindow({
 
 
  local Button = MainTab:CreateButton({
-	Name = "Zee Hub",
+	Name = "Zaque Hub",
 	Callback = function(v)
 		v = print('Successfully 6')
-		loadstring(game:HttpGet("https://dkub.link/ZeeHubFast"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
 	end,
  })
- 
+ local Button = MainTab:CreateButton({
+	Name = "Ripper Hub",
+	Callback = function(v)
+		v = print('Successfully 6')
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/xDestinyx/RipperHub/main/Loader.lua'))()
+	end,
+ })
+ local Button = MainTab:CreateButton({
+	Name = "Uranium Hub",
+	Callback = function(v)
+		v = print('Successfully 6')
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+	end,
+ })
+ local Button = MainTab:CreateButton({
+	Name = "Pado Hub",
+	Callback = function(v)
+		v = print('Successfully 6')
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+	end,
+ })
 
 
  local MainTab = MainWindow:CreateTab("Pet Simulator X", 4483362458) -- Title, Image
@@ -162,7 +182,15 @@ local MainWindow = Rayfield:CreateWindow({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
 	end,
  })
+ 
 
+ local Button = MainTab:CreateButton({
+	Name = "Project-WD",
+	Callback = function(v)
+		v = print('Successfully 8')
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+	end,
+ })
  local MainTab = MainWindow:CreateTab("King Legacy", 4483362458) -- Title, Image
 
  local MainTab = MainWindow:CreateTab("Project Slayers", 4483362458) -- Title, Image
